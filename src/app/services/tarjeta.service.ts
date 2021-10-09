@@ -7,7 +7,9 @@ import { Observable } from 'rxjs';
 })
 export class TarjetaService {
 //  configurar url del backend
-  private myAppUrl='https://localhost:44339/';
+  //private myAppUrl='https://localhost:44339/'; -> url BackendTarjeta with SQL Server
+  //private myAppUrl='https://localhost:44377/'; //-> url BackendTarjetaCredito with Mongo DB ATLAS
+  private myAppUrl='https://agile-thicket-11528.herokuapp.com/'; //-> url BackendTarjetaCredito with Mongo DB ATLAS DEPLOY
   private myApiUrl='api/Tarjeta/';
   constructor(private http:HttpClient) { }
 
